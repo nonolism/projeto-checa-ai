@@ -19,7 +19,7 @@ Requisitos: Python 3.14 e PyGame-ce.
 
 ```bash
 pip install -r requirements.txt
-python checa_ai_simples.py
+python checa_ai.py
 ```
 
 ## ⌨️ Controles
@@ -57,7 +57,7 @@ python checa_ai_simples.py
 
 | Requisito | Onde está |
 |---|---|
-| Python + PyGame | `checa_ai_simples.py` |
+| Python + PyGame | `checa_ai.py` |
 | Game loop `input → update → draw` | `main()` chama `processar_eventos()`, `atualizar()` e `desenhar()` |
 
 
